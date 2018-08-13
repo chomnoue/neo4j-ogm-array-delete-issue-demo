@@ -1,9 +1,14 @@
 plugins {
     java
+    application
 }
 
 group = "com.chomnoue"
 version = "1.0-SNAPSHOT"
+
+application{
+    mainClassName= "movies.Main"
+}
 
 repositories {
     mavenCentral()
