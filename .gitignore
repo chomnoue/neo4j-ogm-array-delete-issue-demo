@@ -1,0 +1,8 @@
+.gradle/
+build/
+
+# Avoid ignoring Gradle wrapper
+!gradle/wrapper/*
+
+**/out/
+.idea
